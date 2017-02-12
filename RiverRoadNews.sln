@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{77594861-DADC-469E-8B3D-06311661D47F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7C508174-A110-439B-81CA-35F824E4BD71}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RiverRoadNews", "src\RiverRoadNews\RiverRoadNews.xproj", "{8F2767A7-3368-4D05-B31C-3EEF0A154E13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{EBE2AE2C-D166-493B-84B8-F6BED0F862BA}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RiverRoadNews.Tests", "RiverRoadNews.Tests\RiverRoadNews.Tests.xproj", "{120F160C-42DB-462C-95D9-9081AE4441A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F2767A7-3368-4D05-B31C-3EEF0A154E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F2767A7-3368-4D05-B31C-3EEF0A154E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F2767A7-3368-4D05-B31C-3EEF0A154E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F2767A7-3368-4D05-B31C-3EEF0A154E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{120F160C-42DB-462C-95D9-9081AE4441A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120F160C-42DB-462C-95D9-9081AE4441A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120F160C-42DB-462C-95D9-9081AE4441A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120F160C-42DB-462C-95D9-9081AE4441A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F2767A7-3368-4D05-B31C-3EEF0A154E13} = {77594861-DADC-469E-8B3D-06311661D47F}
+		{120F160C-42DB-462C-95D9-9081AE4441A8} = {EBE2AE2C-D166-493B-84B8-F6BED0F862BA}
+	EndGlobalSection
+EndGlobal

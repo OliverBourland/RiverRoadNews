@@ -1,0 +1,16 @@
+﻿@model List<RiverRoadNews.Models.Message>
+@{
+    ViewBag.Title = "Forum";
+}
+
+
+
+<h1>Forum</h1>
+
+@foreach (var m in Model)
+{
+    @: Subject: @m.Subject <br />
+    @: From: @m.From.Name <br />
+    @m.Date <br />
+    @m.Body <br /><br />
+}

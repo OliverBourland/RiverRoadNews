@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+            <li><a asp-area="" asp-controller="News" asp-action="Index">News</a></li>
+            <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
+            <li><a asp-area="" asp-controller="Home" asp-action="History">History</a></li>
+            <li><a asp-area="" asp-controller="Map" asp-action="Index">Map</a></li>
+            <li><a asp-area="" asp-controller="News" asp-action="TodaysNews">Today's News</a></li>
+            <li><a asp-area="" asp-controller="News" asp-action="Archive">Archive</a></li>
+            <li><a asp-area="" asp-controller="Message" asp-action="Forum">Forum</a></li>
+        </ul>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
